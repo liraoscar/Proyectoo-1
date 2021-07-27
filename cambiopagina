@@ -1,0 +1,13 @@
+<script>
+function confirmacion() {
+	var pregunta = confirm("¿Deseas visitar la página principal?")
+	if (pregunta){
+		alert("Te envío allí rápidamente")
+		window.location = "https://www.schoolandcollegelistings.com/MX/Tequixquiac/113473055471583/Cecytem-Plantel-Tequixquiac#:~:text=CECyTEM%20Plantel%20Tequixquiac%20se%20imparten%20las%20carreras%20de,de%20nivel%20superior%20y%2Fo%20incorporarse%20al%20medio%20laboral.";
+	}
+	else{
+		alert("Quizás en otro momento...\n Gracias de todas formas")
+	}
+}
+</script>
+<button type="button" onclick="confirmacion()" >Probar confirm</button>
